@@ -1,0 +1,14 @@
+https://leetcode-stats.vercel.app/api?username<USERNAME>&theme=<THEME>
+
+https://leetcode.com/graphql
+{ matchedUser(username: "YOUR_USERNAME") {
+username
+submitStats: submitStatsGlobal {
+acSubmissionNum {
+difficulty
+count
+submissions
+}
+}
+}
+}
